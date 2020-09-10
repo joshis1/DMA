@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"dma_adc_temp_sensor_sram_p2m\startup_stm32f429xx.o"
+"dma_adc_temp_sensor_sram_p2m\main.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_it.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_msp.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_adc.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_adc_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_tim.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_tim_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_rcc.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_rcc_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_flash.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_flash_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_flash_ramfunc.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_gpio.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_dma_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_dma.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_pwr.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_pwr_ex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_cortex.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal.o"
+"dma_adc_temp_sensor_sram_p2m\stm32f4xx_hal_exti.o"
+"dma_adc_temp_sensor_sram_p2m\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "DMA_ADC_Temp_Sensor_SRAM_P2M\DMA_ADC_Temp_Sensor_SRAM_P2M.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DMA_ADC_Temp_Sensor_SRAM_P2M.map" -o DMA_ADC_Temp_Sensor_SRAM_P2M\DMA_ADC_Temp_Sensor_SRAM_P2M.axf

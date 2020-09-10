@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"dma_memory_to_uart_m2p\startup_stm32f429xx.o"
+"dma_memory_to_uart_m2p\main.o"
+"dma_memory_to_uart_m2p\stm32f4xx_it.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_msp.o"
+"dma_memory_to_uart_m2p\stream_data.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_tim.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_tim_ex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_uart.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_rcc.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_rcc_ex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_flash.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_flash_ex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_flash_ramfunc.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_gpio.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_dma_ex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_dma.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_pwr.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_pwr_ex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_cortex.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal.o"
+"dma_memory_to_uart_m2p\stm32f4xx_hal_exti.o"
+"dma_memory_to_uart_m2p\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "DMA_Memory_to_UART_M2P\DMA_Memory_to_UART_M2P.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DMA_Memory_to_UART_M2P.map" -o DMA_Memory_to_UART_M2P\DMA_Memory_to_UART_M2P.axf

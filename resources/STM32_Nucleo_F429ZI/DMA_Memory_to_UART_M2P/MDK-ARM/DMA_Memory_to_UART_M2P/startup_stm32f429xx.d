@@ -1,0 +1,1 @@
+dma_memory_to_uart_m2p\startup_stm32f429xx.o: startup_stm32f429xx.s

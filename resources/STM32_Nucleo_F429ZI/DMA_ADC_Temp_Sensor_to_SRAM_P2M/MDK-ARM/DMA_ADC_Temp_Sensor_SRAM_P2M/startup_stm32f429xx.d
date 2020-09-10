@@ -1,0 +1,1 @@
+dma_adc_temp_sensor_sram_p2m\startup_stm32f429xx.o: startup_stm32f429xx.s
